@@ -1,0 +1,57 @@
+header {
+  background-color: #3E4147;
+
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+body {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  color: #FFFEDF;
+  font-family: "arial-black";
+  padding: .25em;
+}
+nav {
+  padding: .25em;
+  background-color: #2A2C31;
+  overflow:hidden;
+}
+nav>a {
+  /*This will style the anchor tag inside of nav/*/
+  font-family: arial;
+  text-decoration: none;
+  padding: .5em;
+  color: #FFFEDF;
+
+}
+nav>a:hover {
+    color: black;
+    background-color: #5A2E2E;
+}
+p {
+  padding:0 29em 0 1em;
+}
+h2 {
+  padding: 0 0 0 .5em;
+}
+footer {
+  height: 1em;
+  background-color: #2A2C31;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 1em 0;
+}
+footer>a {
+  font-family: arial;
+  text-decoration: none;
+  color:#eee;
+  margin:0 .5em 0 0;
+}
+footer>a:hover {
+  color:purple;
+}
